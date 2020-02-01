@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+
+        여기는 HTML
+
+        <a href="/about">어바웃 페이지로 이동</a>
+
+    </div>
+
+    {% for i in daum %}
+
+        {{ i }}
+
+    {% endfor %}
+
+    <ul>
+    {% for i in daum %}
+
+        <li>{{ i }}</li>
+
+    {% endfor %}
+    </ul>
+</body>
+</html>
